@@ -5,6 +5,7 @@ function Projects() {
     <>
       <PageDefault>
         <h1>Projects page</h1>
+        <small style={{ color: '#ffffff' }}>Página em desenvolvimento</small>
       </PageDefault>
     </>
   );

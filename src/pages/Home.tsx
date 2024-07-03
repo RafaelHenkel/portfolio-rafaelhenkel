@@ -3,6 +3,7 @@ import AbilityContainer from '../components/ability-container/AbilityContainer';
 import AboutContainer from '../components/about-container/AboutContainer';
 import DefaultContainer from '../components/default-container/DefaultContainer';
 import Subtitle from '../components/text-styles/Subtitle';
+import ContactsContainer from '../components/contacts-container/ContactsContainer';
 
 function Home() {
   return (
@@ -38,10 +39,8 @@ function Home() {
         </DefaultContainer>
         <DefaultContainer>
           <Subtitle>Contato.</Subtitle>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, delectus similique inventore deleniti magni,
-            provident ratione dolor aut et repudiandae, nostrum totam nemo rem. Corrupti rem eum quis sapiente labore!
-          </p>
+          <p style={{ color: '#a7a7a7' }}>VAMOS CONVERSAR!</p>
+          <ContactsContainer />
         </DefaultContainer>
       </PageDefault>
     </>

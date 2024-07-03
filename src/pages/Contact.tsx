@@ -5,6 +5,7 @@ function Contact() {
     <>
       <PageDefault>
         <h1>Contact page</h1>
+        <small style={{ color: '#ffffff' }}>Página em desenvolvimento</small>
       </PageDefault>
     </>
   );

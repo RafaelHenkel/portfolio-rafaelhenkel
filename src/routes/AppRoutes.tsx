@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from '../pages/Home';
 import Error404 from '../pages/Error404';
 import About from '../pages/About';
-import Ability from '../pages/Ability';
+import Skills from '../pages/Skills';
 import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
 
@@ -17,8 +17,8 @@ const router = createBrowserRouter([
     element: <About />,
   },
   {
-    path: '/ability',
-    element: <Ability />,
+    path: '/skills',
+    element: <Skills />,
   },
   {
     path: '/projects',

@@ -1,14 +1,14 @@
 import PageDefault from '../components/PageDefault';
 
-function About() {
+function Skills() {
   return (
     <>
       <PageDefault>
-        <h1>About page</h1>
+        <h1>Skills page</h1>
         <small style={{ color: '#ffffff' }}>Página em desenvolvimento</small>
       </PageDefault>
     </>
   );
 }
 
-export default About;
+export default Skills;
