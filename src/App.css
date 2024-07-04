@@ -64,10 +64,13 @@ small {
 }
 
 body::-webkit-scrollbar {
-  width: 8px;
+  width: 0.5rem;
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: #731bb6;
-  border-radius: 20px;
+  border-radius: 1rem;
+}
+
+@media (max-width: 600px) {
 }

@@ -1,6 +1,10 @@
+import { useEffect } from 'react';
 import PageDefault from '../components/PageDefault';
 
 function Skills() {
+  useEffect(() => {
+    document.title = 'Rafael Henkel - Habilidades';
+  }, []);
   return (
     <>
       <PageDefault>

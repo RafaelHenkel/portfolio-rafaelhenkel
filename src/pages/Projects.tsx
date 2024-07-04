@@ -1,6 +1,10 @@
+import { useEffect } from 'react';
 import PageDefault from '../components/PageDefault';
 
 function Projects() {
+  useEffect(() => {
+    document.title = 'Rafael Henkel - Projects';
+  }, []);
   return (
     <>
       <PageDefault>

@@ -1,6 +1,10 @@
+import { useEffect } from 'react';
 import PageDefault from '../components/PageDefault';
 
 function About() {
+  useEffect(() => {
+    document.title = 'Rafael Henkel - Sobre';
+  }, []);
   return (
     <>
       <PageDefault>

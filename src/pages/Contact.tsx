@@ -1,6 +1,10 @@
+import { useEffect } from 'react';
 import PageDefault from '../components/PageDefault';
 
 function Contact() {
+  useEffect(() => {
+    document.title = 'Rafael Henkel - Contato';
+  }, []);
   return (
     <>
       <PageDefault>

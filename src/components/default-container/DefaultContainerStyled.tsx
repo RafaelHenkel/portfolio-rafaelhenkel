@@ -6,7 +6,7 @@ interface DefaultContainerProps {
 
 const DefaultContainerStyled = styled.section<DefaultContainerProps>`
   min-height: ${props => (props.firstContainer ? '50rem' : '40rem')};
-  width: 70%;
+  width: 65%;
   display: flex;
   align-items: start;
   justify-content: center;

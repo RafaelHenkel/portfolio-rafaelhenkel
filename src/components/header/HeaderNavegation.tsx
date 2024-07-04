@@ -7,7 +7,9 @@ function HeaderNavegation() {
       <div style={{ display: 'flex', flexDirection: 'row', gap: '40px' }}>
         {navigation.map(item => (
           <div>
-            <Link to={item.url}>{item.label}</Link>
+            <Link key={item.key} to={item.url}>
+              {item.label}
+            </Link>
           </div>
         ))}
       </div>
