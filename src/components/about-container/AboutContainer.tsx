@@ -4,6 +4,7 @@ import AboutContentStyled from './AboutContentStyled';
 import AboutImageStyled from './AboutImageStyled';
 import myImage from '../../assets/image.jpeg';
 import AboutButtonStyled from './AboutButtonStyled';
+import { Link } from 'react-router-dom';
 
 interface AboutContainerProps {
   children: React.ReactNode;
@@ -15,7 +16,9 @@ function AboutContainer({ children }: AboutContainerProps) {
         <AboutImageStyled src={myImage} alt="Imagem Rafael Henkel" />
         <AboutContentStyled>
           {children}
-          <AboutButtonStyled>Ler mais</AboutButtonStyled>
+          <Link to="/about">
+            <AboutButtonStyled>Ler mais</AboutButtonStyled>
+          </Link>
         </AboutContentStyled>
       </AboutContainerStyled>
     </>

@@ -5,7 +5,7 @@ import DefaultContainer from '../components/default-container/DefaultContainer';
 import Subtitle from '../components/text-styles/Subtitle';
 import ContactsContainer from '../components/contacts-container/ContactsContainer';
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+
 import ProjectsContainer from '../components/projects-container/ProjectsContainer';
 
 function Home() {
@@ -30,7 +30,6 @@ function Home() {
               <br />
               Atualmente não estou trabalhando na area porem estou em busca de uma vaga de emprego.
             </p>
-            <Link to="/about"></Link>
           </AboutContainer>
         </DefaultContainer>
         <DefaultContainer>

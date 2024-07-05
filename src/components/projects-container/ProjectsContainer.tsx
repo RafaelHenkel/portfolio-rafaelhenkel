@@ -1,16 +1,19 @@
 import projects from '../../config/projects';
 import ProjectContainerStyled from './ProjectsContainerStyled';
+import ProjectsTitlesStyled from './ProjectsTitlesStyled';
 
 function ProjectsContainer() {
   return (
     <>
       <ProjectContainerStyled>
         {projects.map(project => (
-          <li key={project.key}>
-            <h3>{project.name}</h3>
-            <p>{project.type}</p>
+          <a href={project.url} target="_blank" key={project.key}>
+            <ProjectsTitlesStyled>
+              <h3>{project.name}</h3>
+              <p>{project.type}</p>
+            </ProjectsTitlesStyled>
             <img src={project.image} alt={project.name} />
-          </li>
+          </a>
         ))}
       </ProjectContainerStyled>
     </>
