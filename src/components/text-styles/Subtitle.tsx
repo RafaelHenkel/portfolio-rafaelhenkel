@@ -3,13 +3,12 @@ import SubtitleStyled from './SubtitleStyled';
 
 interface SubtitleProps {
   children: React.ReactNode;
-  padding?: boolean;
 }
 
-function Subtitle({ children, padding }: SubtitleProps) {
+function Subtitle({ children }: SubtitleProps) {
   return (
     <>
-      <SubtitleStyled padding={padding ?? true}>{children}</SubtitleStyled>
+      <SubtitleStyled>{children}</SubtitleStyled>
     </>
   );
 }

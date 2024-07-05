@@ -1,18 +1,17 @@
 import { Link } from 'react-router-dom';
 import navigation from '../../config/navigation';
+import HeaderUlStyled from './HeaderUlStyled';
 
 function HeaderNavegation() {
   return (
     <>
-      <div style={{ display: 'flex', flexDirection: 'row', gap: '40px' }}>
+      <HeaderUlStyled>
         {navigation.map(item => (
-          <div>
-            <Link key={item.key} to={item.url}>
-              {item.label}
-            </Link>
-          </div>
+          <li key={item.key}>
+            <Link to={item.url}>{item.label}</Link>
+          </li>
         ))}
-      </div>
+      </HeaderUlStyled>
     </>
   );
 }

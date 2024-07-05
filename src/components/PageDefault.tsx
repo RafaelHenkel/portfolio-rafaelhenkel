@@ -1,7 +1,6 @@
 import React from 'react';
 import HeaderDefault from './header/HeaderDefault';
 import MainDefaultStyled from './main/MainDefaultStyled';
-import PageDefaultStyled from './PageDefaultStyled';
 import FooterDefault from './footer/FooterDefault';
 
 interface PageDefaultProps {
@@ -11,11 +10,9 @@ interface PageDefaultProps {
 function PageDefault({ children }: PageDefaultProps) {
   return (
     <>
-      <PageDefaultStyled>
-        <HeaderDefault />
-        <MainDefaultStyled>{children}</MainDefaultStyled>
-        <FooterDefault />
-      </PageDefaultStyled>
+      <HeaderDefault />
+      <MainDefaultStyled>{children}</MainDefaultStyled>
+      <FooterDefault />
     </>
   );
 }

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const AbilityCardStyled = styled.li`
-  width: 18rem;
-  height: 8rem;
+  width: 15rem;
+  height: 6rem;
   border-radius: 5px;
   background-color: #13131f;
   display: flex;
@@ -15,9 +15,6 @@ const AbilityCardStyled = styled.li`
     scale: 1.1;
   }
   p {
-    margin: 0;
-  }
-  svg {
     margin: 0;
   }
 `;

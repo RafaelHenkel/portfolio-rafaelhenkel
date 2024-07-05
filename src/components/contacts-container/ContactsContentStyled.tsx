@@ -8,18 +8,18 @@ const ContactContentStyled = styled.a`
   justify-content: center;
   align-items: center;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #ffffff;
   transition: 0.5s ease;
   &:hover {
-    scale: 1.3;
+    scale: 1.2;
   }
   small {
     color: #a7a7a7;
   }
   img {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
   }
 `;
 
