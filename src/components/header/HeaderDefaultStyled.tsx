@@ -8,6 +8,7 @@ const HeaderDefaultStyled = styled.header`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 99999;
 `;
 
 export default HeaderDefaultStyled;
