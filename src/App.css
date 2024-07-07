@@ -20,18 +20,6 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-a,
-a:visited {
-  font-weight: 700;
-  color: #ffffff;
-  text-decoration: inherit;
-  transition: 0.4s;
-}
-
-a:hover {
-  color: #a7a7a7;
-}
-
 p {
   color: #ffffff;
 }
