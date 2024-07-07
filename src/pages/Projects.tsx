@@ -8,7 +8,7 @@ function Projects() {
   return (
     <>
       <PageDefault>
-        <h1>Projects page</h1>
+        <h1 style={{ color: '#ffffff' }}>Projects page</h1>
         <small style={{ color: '#ffffff' }}>Página em desenvolvimento</small>
       </PageDefault>
     </>

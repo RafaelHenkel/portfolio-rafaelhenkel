@@ -21,6 +21,15 @@ const ContactContentStyled = styled.a`
     width: 2rem;
     height: 2rem;
   }
+  @media (max-width: 480px) {
+    width: 10rem;
+    height: 10rem;
+    font-size: 0.7rem;
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
 `;
 
 export default ContactContentStyled;

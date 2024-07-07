@@ -8,6 +8,10 @@ const ContactsImage = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 480px) {
+    width: 3rem;
+    height: 3rem;
+  }
 `;
 
 export default ContactsImage;

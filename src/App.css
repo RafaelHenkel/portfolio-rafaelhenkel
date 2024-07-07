@@ -32,36 +32,6 @@ a:hover {
   color: #a7a7a7;
 }
 
-.text-effect {
-  position: relative;
-  font-weight: 700;
-  font-size: 1.3rem;
-  color: #ffffff;
-  top: 0;
-  transition: all 300ms ease 0s;
-  &:hover {
-    color: #731bb6;
-    top: -5px;
-  }
-}
-
-h1 {
-  color: #ffffff;
-  margin: 0;
-  font-size: 3.5rem;
-}
-
-.hello-message {
-  color: #a7a7a7;
-  font-weight: 400;
-  font-size: 1.3rem;
-}
-.line {
-  color: #9e2ef6;
-  font-weight: 600;
-  font-size: 2rem;
-}
-
 p {
   color: #ffffff;
 }

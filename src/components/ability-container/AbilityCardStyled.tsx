@@ -17,6 +17,11 @@ const AbilityCardStyled = styled.li`
   p {
     margin: 0;
   }
+  @media (max-width: 480px) {
+    width: 10rem;
+    height: 6rem;
+    font-size: 0.7rem;
+  }
 `;
 
 export default AbilityCardStyled;

@@ -8,7 +8,7 @@ function Contact() {
   return (
     <>
       <PageDefault>
-        <h1>Contact page</h1>
+        <h1 style={{ color: '#ffffff' }}>Contact page</h1>
         <small style={{ color: '#ffffff' }}>Página em desenvolvimento</small>
       </PageDefault>
     </>

@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <PageDefault>
-        <h1>About page</h1>
+        <h1 style={{ color: '#ffffff' }}>About page</h1>
         <small style={{ color: '#ffffff' }}>Página em desenvolvimento</small>
       </PageDefault>
     </>
