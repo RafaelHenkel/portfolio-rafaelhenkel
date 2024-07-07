@@ -20,44 +20,11 @@ const HeaderDefaultStyled = styled.header`
       top: -5px;
     }
   }
-  a,
-  a:visited {
-    font-weight: 700;
-    color: #ffffff;
-    text-decoration: inherit;
-    transition: 0.4s;
-    margin: auto 0;
-  }
-  a:hover {
-    color: #a7a7a7;
-  }
   .mobile-menu {
     display: none;
   }
-
   @media (max-width: 1024px) {
     justify-content: space-between;
-    ul {
-    }
-    .is-open {
-      position: absolute;
-      display: flex;
-      justify-content: start;
-      align-items: center;
-      flex-direction: column;
-      width: 100vw;
-      height: 90vh;
-      background-color: #020617ea;
-      margin: 0;
-      padding: 0;
-      padding-top: 10vh;
-      font-size: 1.5rem;
-      z-index: -1;
-    }
-
-    ul {
-      display: none;
-    }
     .mobile-menu {
       display: block;
     }

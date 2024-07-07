@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
 import PageDefault from '../components/PageDefault';
+import DefaultContainer from '../components/default-container/DefaultContainer';
+import Subtitle from '../components/text-styles/Subtitle';
+import AbilityContainer from '../components/ability-container/AbilityContainer';
 
 function Skills() {
   useEffect(() => {
@@ -8,8 +11,13 @@ function Skills() {
   return (
     <>
       <PageDefault>
-        <h1 style={{ color: '#ffffff' }}>Skills page</h1>
-        <small style={{ color: '#ffffff' }}>Página em desenvolvimento</small>
+        <DefaultContainer>
+          <Subtitle>Softskills</Subtitle>
+
+          <Subtitle>Hardskills</Subtitle>
+          <AbilityContainer />
+          <small style={{ color: '#ffffff', paddingTop: '5vh' }}>Página em desenvolvimento</small>
+        </DefaultContainer>
       </PageDefault>
     </>
   );

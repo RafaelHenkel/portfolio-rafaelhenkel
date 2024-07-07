@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
 import PageDefault from '../components/PageDefault';
+import DefaultContainer from '../components/default-container/DefaultContainer';
+import Subtitle from '../components/text-styles/Subtitle';
+import ProjectsContainer from '../components/projects-container/ProjectsContainer';
 
 function Projects() {
   useEffect(() => {
@@ -8,8 +11,10 @@ function Projects() {
   return (
     <>
       <PageDefault>
-        <h1 style={{ color: '#ffffff' }}>Projects page</h1>
-        <small style={{ color: '#ffffff' }}>Página em desenvolvimento</small>
+        <DefaultContainer>
+          <Subtitle>Projetos</Subtitle>
+          <ProjectsContainer />
+        </DefaultContainer>
       </PageDefault>
     </>
   );

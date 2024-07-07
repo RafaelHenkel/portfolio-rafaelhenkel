@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
 import PageDefault from '../components/PageDefault';
+import DefaultContainer from '../components/default-container/DefaultContainer';
+import Subtitle from '../components/text-styles/Subtitle';
+import ContactsContainer from '../components/contacts-container/ContactsContainer';
 
 function Contact() {
   useEffect(() => {
@@ -8,8 +11,12 @@ function Contact() {
   return (
     <>
       <PageDefault>
-        <h1 style={{ color: '#ffffff' }}>Contact page</h1>
-        <small style={{ color: '#ffffff' }}>Página em desenvolvimento</small>
+        <DefaultContainer>
+          <Subtitle>Contato</Subtitle>
+          <p style={{ color: '#a7a7a7' }}>VAMOS CONVERSAR!</p>
+          <ContactsContainer />
+          <small style={{ color: '#ffffff' }}>Página em desenvolvimento</small>
+        </DefaultContainer>
       </PageDefault>
     </>
   );
