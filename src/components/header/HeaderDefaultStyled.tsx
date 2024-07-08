@@ -28,6 +28,21 @@ const HeaderDefaultStyled = styled.header`
     .mobile-menu {
       display: block;
     }
+    .is-open {
+      position: absolute;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-direction: column;
+      width: 100vw;
+      height: 90vh;
+      background-color: #020617ea;
+      margin: 0;
+      padding: 0;
+      padding-top: 10vh;
+      font-size: 1.5rem;
+      z-index: -1;
+    }
   }
 `;
 
