@@ -1,15 +1,15 @@
 import styled from 'styled-components';
 
 interface DefaultContainerProps {
-  minHeight?: boolean;
-  alignItems?: boolean;
+  minHeight?: string;
+  alignItems?: string;
 }
 
 const DefaultContainerStyled = styled.section<DefaultContainerProps>`
-  min-height: ${props => (props.minHeight ? '50rem' : '40rem')};
+  min-height: ${props => (props.minHeight ? props.minHeight : '40rem')};
   width: 60vw;
   display: flex;
-  align-items: ${props => (props.alignItems ? 'start' : 'center')};
+  align-items: ${props => (props.alignItems ? props.alignItems : 'center')};
   justify-content: center;
   flex-direction: column;
   margin-top: 2rem;

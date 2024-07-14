@@ -3,7 +3,7 @@ import PageDefault from '../components/PageDefault';
 import DefaultContainer from '../components/default-container/DefaultContainer';
 import Subtitle from '../components/text-styles/Subtitle';
 import ContactsContainer from '../components/contacts-container/ContactsContainer';
-import Form from '../components/form/Form';
+import Form from '../components/form-contact/Form';
 
 function Contact() {
   useEffect(() => {

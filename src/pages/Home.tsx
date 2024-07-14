@@ -15,7 +15,7 @@ function Home() {
   return (
     <>
       <PageDefault>
-        <DefaultContainer minHeight={true} alignItems={true}>
+        <DefaultContainer minHeight="50rem" alignItems="start">
           <h2 className="hello-message">Olá, meu nome é</h2>
           <h1>Rafael Henkel</h1>
           <h2 className="line">Fullstack Web Developer</h2>
