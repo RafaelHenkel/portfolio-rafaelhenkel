@@ -2,7 +2,7 @@ import React from 'react';
 import AboutContainerStyled from './AboutContainerStyled';
 import AboutContentStyled from './AboutContentStyled';
 import AboutImageStyled from './AboutImageStyled';
-import myImage from '../../assets/image.jpeg';
+import myImage from '../../../public/image.jpeg';
 import AboutButtonStyled from './AboutButtonStyled';
 import { Link } from 'react-router-dom';
 

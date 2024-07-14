@@ -1,4 +1,4 @@
-import rickMortyImage from '../assets/projects-image/rick-morty-image.png';
+import rickMortyImage from '../../public/projects-image/rick-morty-image.png';
 
 const projects = [
   {
