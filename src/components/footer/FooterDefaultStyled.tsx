@@ -8,6 +8,8 @@ const FooterDefaultStyled = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 2px #a7a7a7 solid;
+  margin-top: 3rem;
 `;
 
 export default FooterDefaultStyled;

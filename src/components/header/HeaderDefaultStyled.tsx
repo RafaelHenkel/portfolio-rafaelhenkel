@@ -8,6 +8,7 @@ const HeaderDefaultStyled = styled.header`
   display: flex;
   justify-content: space-around;
   z-index: 99999;
+  box-shadow: #020617 0px 20px 40px;
   .text-effect {
     position: relative;
     font-weight: 700;
