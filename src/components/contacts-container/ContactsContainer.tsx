@@ -37,7 +37,7 @@ function ContactsContainer() {
             <img src={emailImage} alt="Email" />
           </ContactsImage>
           <h3>E-mail</h3>
-          <small>contato@rafaelhenkel.com</small>
+          <small>rafael0henkel1@gmail.com</small>
         </ContactsContentStyled>
       </ContactContainerStyled>
     </>

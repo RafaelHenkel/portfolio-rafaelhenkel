@@ -3,8 +3,6 @@ import PageDefault from '../components/PageDefault';
 import DefaultContainer from '../components/default-container/DefaultContainer';
 import Subtitle from '../components/text-styles/Subtitle';
 import ContactsContainer from '../components/contacts-container/ContactsContainer';
-import Input from '../components/form/Input';
-import Textarea from '../components/form/Textarea';
 import Form from '../components/form/Form';
 
 function Contact() {
