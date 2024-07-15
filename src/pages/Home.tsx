@@ -5,8 +5,8 @@ import DefaultContainer from '../components/default-container/DefaultContainer';
 import Subtitle from '../components/text-styles/Subtitle';
 import ContactsContainer from '../components/contacts-container/ContactsContainer';
 import { useEffect } from 'react';
-
 import ProjectsContainer from '../components/projects-container/ProjectsContainer';
+import HomeContainer from '../components/home-container/HomeContainer';
 
 function Home() {
   useEffect(() => {
@@ -16,9 +16,7 @@ function Home() {
     <>
       <PageDefault>
         <DefaultContainer minHeight="50rem" alignItems="start">
-          <h2 className="hello-message">Olá, meu nome é</h2>
-          <h1>Rafael Henkel</h1>
-          <h2 className="line">Fullstack Web Developer</h2>
+          <HomeContainer />
         </DefaultContainer>
         <DefaultContainer>
           <AboutContainer>

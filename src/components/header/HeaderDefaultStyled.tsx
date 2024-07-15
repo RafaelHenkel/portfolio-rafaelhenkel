@@ -43,6 +43,16 @@ const HeaderDefaultStyled = styled.header`
       padding-top: 10vh;
       font-size: 1.5rem;
       z-index: -1;
+      transform: translateX(0vw);
+      animation: 1s ease show-menu;
+      @keyframes show-menu {
+        0% {
+          transform: translateX(100vw);
+        }
+        100% {
+          transform: translateX(0vw);
+        }
+      }
     }
   }
 `;
