@@ -19,7 +19,7 @@ const AbilityCardStyled = styled.li`
   }
   @media (max-width: 480px) {
     width: 10rem;
-    height: 6rem;
+    height: 4rem;
     font-size: 0.7rem;
   }
 `;

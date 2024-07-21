@@ -9,6 +9,8 @@ const HomeContainerStyled = styled.section`
     animation: 2s ease infinite move-animation;
     transform-origin: 70% 70%;
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
     @keyframes move-animation {
       0% {
         transform: rotate(0);
