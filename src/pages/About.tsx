@@ -21,7 +21,6 @@ function About() {
               Atualmente não estou trabalhando na area porem estou em busca de uma vaga de emprego.
             </p>
           </AboutContainer>
-          <small style={{ color: '#ffffff', paddingTop: '5vh' }}>Página em desenvolvimento</small>
         </DefaultContainer>
       </PageDefault>
     </>

@@ -7,6 +7,9 @@ import nodeImage from '../../public/skills-images/node-image.png';
 import gitImage from '../../public/skills-images/git-image.png';
 import styledImage from '../../public/skills-images/styled-components-image.png';
 import bootstrapImage from '../../public/skills-images/boostrap-image.png';
+import nextjsImage from '../../public/skills-images/next.js-image.png';
+import postgreeSQlImage from '../../public/skills-images/postgreesql-image.png';
+import tailwindImage from '../../public/skills-images/tailwind-image.png';
 
 const skills = [
   { skill: 'HTML5', image: htmlImage, key: 'html' },
@@ -18,6 +21,9 @@ const skills = [
   { skill: 'GIT', image: gitImage, key: 'git' },
   { skill: 'STYLED COMPONENTS', image: styledImage, key: 'styled' },
   { skill: 'BOOTSTRAP', image: bootstrapImage, key: 'bootstrap' },
+  { skill: 'NEXT JS', image: nextjsImage, key: 'nextjs' },
+  { skill: 'POSTGREE SQL', image: postgreeSQlImage, key: 'postgreesql' },
+  { skill: 'TAILWIND CSS', image: tailwindImage, key: 'tailwind' },
 ];
 
 export default skills;
