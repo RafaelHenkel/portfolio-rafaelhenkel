@@ -12,7 +12,7 @@ const ProjectsTitlesStyled = styled.div`
   opacity: 0;
   transition: 0.5s;
   background: linear-gradient(180deg, rgba(9, 9, 121, 0) 0%, rgba(0, 0, 0, 1) 100%);
-  border-radius: 15px;
+  border-radius: 10px;
   &:hover {
     opacity: 1;
   }
@@ -25,6 +25,9 @@ const ProjectsTitlesStyled = styled.div`
     padding-left: 1rem;
     font-size: 1.2rem;
     margin: 0;
+  }
+  small {
+    padding-left: 1rem;
   }
 `;
 

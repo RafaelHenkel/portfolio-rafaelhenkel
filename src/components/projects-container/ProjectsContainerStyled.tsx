@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const ProjectContainerStyled = styled.ul`
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding: 0;
   margin: 0;
   a {
