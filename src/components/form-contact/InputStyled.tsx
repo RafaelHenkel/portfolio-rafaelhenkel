@@ -17,6 +17,7 @@ const InputStyled = styled.div`
     padding: 15px;
     font-size: 20px;
     color: #f5f5f5;
+    resize: none;
     @media (max-width: 1024px) {
       max-width: 50vw;
       width: 50vw;
