@@ -10,6 +10,7 @@ import bootstrapImage from '../../public/skills-images/boostrap-image.png';
 import nextjsImage from '../../public/skills-images/next.js-image.png';
 import postgreeSQlImage from '../../public/skills-images/postgreesql-image.png';
 import tailwindImage from '../../public/skills-images/tailwind-image.png';
+import reduxImage from '/public/skills-images/redux-image.png';
 
 const skills = [
   { skill: 'HTML5', image: htmlImage, key: 'html' },
@@ -24,6 +25,7 @@ const skills = [
   { skill: 'NEXT JS', image: nextjsImage, key: 'nextjs' },
   { skill: 'POSTGREE SQL', image: postgreeSQlImage, key: 'postgreesql' },
   { skill: 'TAILWIND CSS', image: tailwindImage, key: 'tailwind' },
+  { skill: 'REDUX', image: reduxImage, key: 'redux' },
 ];
 
 export default skills;
