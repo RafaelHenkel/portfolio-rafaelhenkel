@@ -12,7 +12,7 @@ interface ProjectType {
   image: string;
   key: string;
   url: string;
-  languages: [{ name: string }];
+  languages: { name: string }[];
   about: string;
 }
 function Project() {
