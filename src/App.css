@@ -2,6 +2,9 @@
   font-family: Poppins, sans-serif;
   background-color: #020617;
 }
+::selection {
+  background-color: #731bb68a;
+}
 
 #root {
   max-width: 100vw;

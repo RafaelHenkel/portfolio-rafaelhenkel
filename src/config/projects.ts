@@ -10,7 +10,7 @@ const projects = [
     image: rickMortyImage,
     key: 'apiram',
     url: 'https://avaliacao-final-front-end-lll.vercel.app/',
-    languages: ['HTML5 ', 'CSS3 ', 'Javacript '],
+    languages: [{ name: 'HTML5' }, { name: 'CSS3' }, { name: 'Javacript' }],
     about:
       'Este projeto foi realizado como atividade final do modulo de front end III no curso da growdev Desenvovilmento web fullstack',
   },
@@ -21,7 +21,7 @@ const projects = [
     image: pokeImage,
     key: 'apipoke',
     url: 'https://api-pokemon-dun.vercel.app/',
-    languages: ['React ', 'StyledComponents ', 'Typescript '],
+    languages: [{ name: 'React' }, { name: 'StyledComponents' }, { name: 'Typescript' }],
     about: 'Projeto realizado para treinar react, fazendo pesquisas por input e listando pokemons da pokeapi.',
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     image: growtwitterImage,
     key: 'growtwitter',
     url: 'https://growtwitter-18-ed-front.vercel.app/',
-    languages: ['React ', 'StyledComponents ', 'Typescript '],
+    languages: [{ name: 'React' }, { name: 'StyledComponents' }, { name: 'Typescript' }],
     about:
       'Growtwitter é um projeto inspirador aonde aprendemos bastante coisas e ele foi realizado em grupo entre minha turma inteira, aonde formamos duplas e fizemos tasks utilizando o Trello.',
   },

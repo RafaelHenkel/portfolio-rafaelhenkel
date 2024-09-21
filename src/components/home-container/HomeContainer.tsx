@@ -13,7 +13,7 @@ function HomeContainer() {
             <span>👋🏻</span>
             <h2 className="hello-message">Olá, meu nome é</h2>
           </div>
-          <h1>Rafael Henkel</h1>
+          <h1 className="font-bold">Rafael Henkel</h1>
           <h2 className="line">Fullstack Web Developer</h2>
         </HomeContextStyled>
         <HomeImageContainerStyled>

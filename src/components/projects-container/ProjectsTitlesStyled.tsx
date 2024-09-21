@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 const ProjectsTitlesStyled = styled.div`
-  width: 24rem;
-  height: 14rem;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: absolute;
   margin: 0;
-  z-index: 1;
+  z-index: 2;
   opacity: 0;
   transition: 0.5s;
   background: linear-gradient(180deg, rgba(9, 9, 121, 0) 0%, rgba(0, 0, 0, 1) 100%);
