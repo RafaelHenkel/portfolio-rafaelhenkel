@@ -14,7 +14,9 @@ function HeaderNavegation() {
       <HeaderMenuStyled className={modalOpen ? 'is-open' : ''}>
         {navigation.map(item => (
           <li key={item.key}>
-            <Link to={item.url}>{item.label}</Link>
+            <Link to={item.url} style={{ color: 'white' }} onClick={toggleMenu}>
+              {item.label}
+            </Link>
           </li>
         ))}
       </HeaderMenuStyled>
